@@ -590,6 +590,35 @@ footer {
     color: rgb(100, 100, 100)
 }
 
+.login input[type='submit']:hover,
+.register input[type='submit']:hover {
+    background-color: #0022AA;
+}
+
+.login {
+    display: flex;/*trabajar con flex box */
+    flex-direction:column;/*definir eje principal -- row o column */
+    flex-wrap: wrap; /*respetar el tamaño de los elementos por linea*/
+    justify-content:flex-start;/* alineacion del eje principal*/
+    align-items: center;/* alineacion del eje secundario*/
+    
+
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.register{
+
+    display: flex;/*trabajar con flex box */
+    flex-direction:column;/*definir eje principal -- row o column */
+    flex-wrap: wrap; /*respetar el tamaño de los elementos por linea*/
+    justify-content:flex-start;/* alineacion del eje principal*/
+    align-items: center;/* alineacion del eje secundario*/
+    
+    margin: 20px;
+}
+
 @media (min-width: 361px) {
     main section article .description {
         display: block;
